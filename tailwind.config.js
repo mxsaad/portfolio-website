@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'mk-black': '#211F22',
+        'mk-black': '#231E23',
         'mk-gray': '#2D282D',
         'mk-pink': '#F92672',
         'mk-blue': '#66D9EF',
@@ -17,6 +17,9 @@ module.exports = {
       fontFamily: {
         'lato': 'Lato, sans-serif;',
         'nautigal': "'The Nautigal', cursive;",
+      },
+      backgroundImage: {
+        'home': "url('/src/img/home.jpg')"
       }
     }
   },

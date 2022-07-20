@@ -10,8 +10,8 @@ const NavBar = () => {
   }
   
   return (
-    <header className='fixed w-full h-20 bg-mk-black flex justify-between items-center px-2 rounded-b-2xl'>
-        {/* Name */}
+    <header className='z-10 fixed w-full h-20 bg-gradient-to-tr from-black to-mk-gray flex justify-between items-center px-2 rounded-b-2xl'>
+        {/* Initials */}
         <button className={!menuOpen ? 'font-nautigal text-mk-pink text-5xl px-2 hover:text-mk-yellow hover:scale-105 duration-150 z-10'
         : 'font-nautigal text-mk-yellow text-5xl px-2 hover:text-mk-pink hover:scale-105 duration-150  z-10'}>
           MS
@@ -32,7 +32,7 @@ const NavBar = () => {
         </button>
 
         {/* Mobile Menu */}
-        <menu className={!menuOpen ? 'hidden' : 'flex flex-col justify-center items-center gap-10 absolute top-0 left-0 w-full h-screen bg-mk-black text-5xl text-mk-yellow'}>
+        <menu className={!menuOpen ? 'hidden' : 'flex flex-col justify-center items-center gap-10 absolute top-0 left-0 w-full h-screen bg-gradient-to-tr from-black to-mk-gray text-5xl text-mk-yellow'}>
           <li><button className='hover:text-mk-pink hover:scale-105 duration-150'>About</button></li>
           <li><button className='hover:text-mk-pink hover:scale-105 duration-150'>Skills</button></li>
           <li><button className='hover:text-mk-pink hover:scale-105 duration-150'>Work</button></li>
