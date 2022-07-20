@@ -6,18 +6,18 @@ import { RiLinkedinFill } from 'react-icons/ri';
 
 const Home = () => {
   return (
-    <section name='home' className='bg-mk-gray w-full h-screen px-20 flex flex-col justify-center items-center'>
+    <section name='home' className='bg-home-vert md:bg-home-hor bg-cover w-full h-screen px-10 flex flex-col justify-center items-center'>
         <div className='flex flex-col'>
             {/* Landing Text */}
-            <p className='text-mk-blue text-2xl md:text-3xl lg:text-4xl mb-1 duration-150'>Hi, my name is</p>
-            <h1 className='text-mk-pink leading-none text-6xl md:text-7xl lg:text-8xl font-bold hover:scale-105 duration-150'>Muhammad Saad,</h1>
-            <h2 className='text-mk-blue leading-none text-[2rem]  md:text-5xl lg:text-6xl font-bold mt-2 duration-150'>Software Developer.</h2>
+            <p className='text-mk-blue font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-1 duration-150'>Hi, my name is</p>
+            <h1 className='font-nautigal text-mk-pink font-bold leading-none text-[4rem] sm:text-[5rem] md:text-[6rem] lg:text-[7rem] hover:scale-105 duration-150'>Muhammad Saad,</h1>
+            <h2 className='text-mk-blue font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mt-2 duration-150'>Software Developer.</h2>
 
             {/* Resume & Social Links */}
             <div className='flex gap-2 mt-4'>
               {/* Resume hosted on Google Drive */}
               <a href='https://docs.google.com/document/d/1eQl8Bg3VVh6RjpNkUYHSpQKtDNA2mJU7/edit?usp=sharing&ouid=111841621761945418941&rtpof=true&sd=true' target='_blank' rel='noopener noreferrer'>
-                <button className='px-6 py-2.5 text-mk-yellow border-mk-yellow border-solid rounded-full border-2 text-lg duration-150 hover:text-mk-gray hover:bg-mk-yellow'>
+                <button className='px-6 py-2.5 text-mk-yellow border-mk-yellow bg-mk-black bg-opacity-80 border-solid rounded-full border-2 text-lg duration-150 hover:text-mk-gray hover:bg-mk-yellow'>
                   Resume <HiOutlineDownload className='inline'/>
                 </button>
               </a>
