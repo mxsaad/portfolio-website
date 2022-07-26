@@ -1,5 +1,5 @@
 import React from 'react';
-import MemojiWave from '../img/memoji-wave.png';
+import MemojiWave from '../img/memoji/wave.png';
 
 const About = () => {
   return (
