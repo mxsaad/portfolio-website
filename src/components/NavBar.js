@@ -32,7 +32,7 @@ const NavBar = () => {
         </button>
 
         {/* Mobile Menu */}
-        <menu className={!menuOpen ? 'hidden' : 'flex flex-col justify-center items-center text-mk-yellow gap-10 absolute top-0 left-0 w-full h-screen bg-gradient-to-tr from-black to-mk-gray text-5xl'}>
+        <menu className={!menuOpen ? 'hidden' : 'flex flex-col justify-center items-center text-mk-yellow gap-10 absolute top-0 left-0 w-full h-screen bg-gradient-to-tr from-black to-mk-gray text-4xl md:text-5xl'}>
           <li><button className='hover:text-mk-pink hover:scale-105 duration-150'>About</button></li>
           <li><button className='hover:text-mk-pink hover:scale-105 duration-150'>Skills</button></li>
           <li><button className='hover:text-mk-pink hover:scale-105 duration-150'>Work</button></li>

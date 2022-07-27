@@ -6,7 +6,7 @@ import { RiLinkedinFill } from 'react-icons/ri';
 
 const Home = () => {
   return (
-    <section name='home' className='bg-home-vert md:bg-home-hor bg-cover w-full h-screen px-10 flex flex-col justify-center items-center'>
+    <section name='home' className='bg-home-vert md:bg-home-hor bg-cover w-full h-screen px-6 md:px-10 flex flex-col justify-center items-center'>
         <div className='flex flex-col'>
             {/* Landing Text */}
             <p className='text-mk-blue font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-1 duration-150'>Hi, my name is</p>
