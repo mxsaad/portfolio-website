@@ -2,6 +2,7 @@ import NavBar from './components/NavBar';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
+import Connect from './components/Connect';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Home />
         <About />
         <Skills />
+        <Connect />
       </main>
       <Footer />
     </div>
