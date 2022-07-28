@@ -18,7 +18,7 @@ const Skills = () => {
   }, [])
   
   return (
-    <section name='skills' className='w-full h-screen flex flex-col justify-center gap-8'>
+    <section name='work' className='w-full h-screen flex flex-col justify-center gap-8'>
       <div className='flex flex-col justify-center gap-8'>
         <div className='px-10 md:px-14 lg:px-20'>
           {/* Section Header */}
