@@ -11,10 +11,10 @@ const NavBar = () => {
   }
   
   return (
-    <header className='z-10 fixed w-full h-20 bg-gradient-to-tr from-black to-mk-gray flex justify-between items-center px-2 rounded-b-2xl border-mk-pink border-b-2'>
+    <header className='z-10 fixed w-full h-14 md:h-16 bg-gradient-to-tr from-black to-mk-gray flex justify-between items-center px-2 rounded-b-2xl border-mk-pink border-b-2'>
         {/* Initials */}
-        <button className={!menuOpen ? 'font-nautigal text-5xl px-3 text-mk-yellow hover:text-mk-pink hover:scale-105 duration-150 z-10' 
-          : 'font-nautigal text-5xl px-3 text-mk-pink hover:text-mk-yellow hover:scale-105 duration-150 z-10'}>
+        <button className={!menuOpen ? 'font-nautigal text-4xl md:text-5xl px-3 text-mk-yellow hover:text-mk-pink hover:scale-105 duration-150 z-10' 
+          : 'font-nautigal text-4xl md:text-5xl px-3 text-mk-pink hover:text-mk-yellow hover:scale-105 duration-150 z-10'}>
           <Link onClick={menuOpen ? (() => toggleMenu()) : void(0)} to="home" smooth={true} duration={500}>MS</Link>
         </button>
         
