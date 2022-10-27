@@ -6,7 +6,7 @@ const Skills = () => {
   const [repos, setRepos] = useState([]);
 
   const getRepos = async () => {
-    const response = await fetch('https://gh-pinned-repos.egoist.sh/?username=mxsaad');
+    const response = await fetch('https://gh-pinned-repos.egoist.dev/?username=mxsaad');
     const data = await response.json();
     setRepos(data);
   }  
