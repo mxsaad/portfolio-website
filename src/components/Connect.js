@@ -21,11 +21,11 @@ const Connect = () => {
           {/* Buttons */}
           <div className='flex justify-center items-center gap-2'>
             {/* GitHub */}
-            <SocialButton icon={ <FiGithub/> } link='https://github.com/mxsaad'/>
+            <SocialButton icon={ <FiGithub/> } link='https://dub.sh/NPwe4L0'/>
             {/* LinkedIn */}
-            <SocialButton icon={ <RiLinkedinFill/> } link='https://www.linkedin.com/in/mxsaad/'/>
+            <SocialButton icon={ <RiLinkedinFill/> } link='https://dub.sh/tcGwmDg'/>
             {/* Email */}
-            <a href='mailto:msaad3@pm.me' target='_blank' rel='noopener noreferrer'>
+            <a href='https://dub.sh/CqiQbmr' target='_blank' rel='noopener noreferrer'>
                 <button className='px-4 sm:px-6 py-2.5 h-fit text-mk-yellow border-mk-yellow bg-mk-black bg-opacity-80 border-solid rounded-full border-2 text-lg duration-150 hover:text-mk-gray hover:bg-mk-yellow'>
                   Contact <FiArrowRight className='inline'/>
                 </button>

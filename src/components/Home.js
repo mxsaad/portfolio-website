@@ -16,14 +16,14 @@ const Home = () => {
             {/* Resume & Social Links */}
             <div className='flex gap-2 mt-4'>
               {/* Resume hosted on Google Drive */}
-              <a href='https://drive.google.com/file/d/1Yb21JxGWYkwB3r4LW5ZGrdLV-U6r4hrJ/view?usp=sharing' target='_blank' rel='noopener noreferrer'>
+              <a href='https://dub.sh/eyj5LqY' target='_blank' rel='noopener noreferrer'>
                 <button className='px-6 py-2.5 text-mk-yellow border-mk-yellow bg-mk-black bg-opacity-80 border-solid rounded-full border-2 text-lg duration-150 hover:text-mk-gray hover:bg-mk-yellow'>
                   Resume <HiOutlineDownload className='inline'/>
                 </button>
               </a>
-              <SocialButton icon={ <HiOutlineMail/> } link='mailto:msaad3@pm.me'/>
-              <SocialButton icon={ <FiGithub/> } link='https://github.com/mxsaad'/>
-              <SocialButton icon={ <RiLinkedinFill/> } link='https://www.linkedin.com/in/mxsaad/'/>
+              <SocialButton icon={ <HiOutlineMail/> } link='https://dub.sh/CqiQbmr'/>
+              <SocialButton icon={ <FiGithub/> } link='https://dub.sh/NPwe4L0'/>
+              <SocialButton icon={ <RiLinkedinFill/> } link='https://dub.sh/tcGwmDg'/>
             </div>
         </div>
     </section>
