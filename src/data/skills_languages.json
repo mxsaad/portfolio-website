@@ -1,0 +1,30 @@
+[
+    {
+      "name": "Python",
+      "img": "python.svg"
+    },
+    {
+      "name": "MySQL",
+      "img": "mysql.svg"
+    },
+    {
+      "name": "JavaScript",
+      "img": "javascript.svg"
+    },
+    {
+      "name": "Bash",
+      "img": "bash.svg"
+    },
+    {
+      "name": "Java",
+      "img": "java.svg"
+    },
+    {
+      "name": "CSS",
+      "img": "css.svg"
+    },
+    {
+      "name": "HTML",
+      "img": "html.svg"
+    }
+]
