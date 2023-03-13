@@ -1,17 +1,7 @@
 import React from 'react';
 import ShowcaseItem from './ShowcaseItem';
-import Java from '../img/icon/java.svg';
-import JavaScript from  '../img/icon/javascript.svg';
-import HTML from '../img/icon/html.svg';
-import CSS from '../img/icon/css.svg';
-import Bash from '../img/icon/bash.svg';
-import Python from '../img/icon/python.svg';
-import ReactIcon from '../img/icon/react.svg';
-import Tailwind from '../img/icon/tailwind.svg';
-import Vim from '../img/icon/vim.svg';
-import Docker from '../img/icon/docker.svg';
-import Git from '../img/icon/git.svg';
-import Vagrant from '../img/icon/vagrant.svg';
+import languages from '../data/skills_languages.json';
+import technologies from '../data/skills_technologies.json';
 
 const Skills = () => {
   return (
@@ -27,21 +17,16 @@ const Skills = () => {
         </div>
         {/* Languages */}
         <div className='w-full flex py-4 px-10 md:px-14 lg:px-20 gap-4 overflow-x-auto'>
-          <ShowcaseItem name='Java' icon={Java}/>
-          <ShowcaseItem name='JavaScript' icon={JavaScript}/>
-          <ShowcaseItem name='HTML' icon={HTML}/>
-          <ShowcaseItem name='CSS' icon={CSS}/>
-          <ShowcaseItem name='Bash' icon={Bash}/>
-          <ShowcaseItem name='Python' icon={Python}/>
+          { languages.map((lang, i) => {
+            return <ShowcaseItem key={i} name={lang.name} icon={require(`../img/icon/${lang.img}`)} />;
+          })}
         </div>
+
         {/* Technologies */}
         <div className='w-full flex py-4 px-10 md:px-14 lg:px-20 gap-4 overflow-x-auto'>
-          <ShowcaseItem name='React' icon={ReactIcon}/>
-          <ShowcaseItem name='Tailwind' icon={Tailwind}/>
-          <ShowcaseItem name='Vim' icon={Vim}/>
-          <ShowcaseItem name='Docker' icon={Docker}/>
-          <ShowcaseItem name='Git' icon={Git}/>
-          <ShowcaseItem name='Vagrant' icon={Vagrant}/>
+          { technologies.map((tech, i) => {
+            return <ShowcaseItem key={i} name={tech.name} icon={require(`../img/icon/${tech.img}`)} />;
+          })}
         </div>
       </div>
     </section>
