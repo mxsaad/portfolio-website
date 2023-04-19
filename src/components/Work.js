@@ -25,12 +25,11 @@ const Skills = () => {
           <h3 className='font-nautigal font-bold text-mk-yellow w-fit leading-none text-[4.25rem] md:text-[5rem] lg:text-[5.75rem] underline underline-offset-4 decoration-2 decoration-mk-pink hover:scale-105 duration-150'>Work</h3>
           {/* Description */}
           <p className='text-mk-yellow text-bold text-xl md:text-2xl lg:text-3xl duration-150'>
-            Here are my projects.
+            Here are some of my projects.
           </p>
         </div>
         {/* Projects */}
         <div className='w-full flex py-4 px-10 md:px-14 lg:px-20 gap-4 overflow-x-auto'>
-          <ProjectCard name='linux-workshops' desc='Created the curriculum for and hosted a series of workshops about Bash scripting.' demo='https://www.youtube.com/playlist?list=PLYCm5R657r6ThEOcRaBXuMPWAtecBfZcU'/>
           {!loading && repos.map((repo, i) => {
             return (
               <ProjectCard key={i} name={repo.repo} desc={repo.description} code={repo.link} demo={repo.website}/>
