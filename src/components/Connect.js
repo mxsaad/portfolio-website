@@ -10,12 +10,12 @@ const Connect = () => {
       {/* Section Header */}
       <h3 className='mt-20 font-nautigal font-bold text-mk-yellow w-fit leading-none text-[4.25rem] md:text-[5rem] lg:text-[5.75rem] underline underline-offset-4 decoration-2 decoration-mk-pink hover:scale-105 duration-150'>Connect</h3>
       {/* Contact Card */}
-      <div className='mb-10 flex flex-col md:flex-row justify-center items-center gap-8 max-w-[80vw] md:max-w-[85vw] h-min bg-mk-gray rounded-xl border-2 border-mk-pink duration-150'>
+      <div className='mb-10 flex flex-col md:flex-row justify-center items-center gap-8 max-w-[80vw] md:max-w-[70vw] lg:max-w-[65vw] h-min bg-mk-gray rounded-xl border-2 border-mk-pink duration-150'>
         {/* Memoji Calling */}
-        <img src={MemojiConnect} alt="Muhammad Saad's memoji calling." className='bg-mk-pink rounded-b-lg md:rounded-l-lg w-[70%] sm:w-full md:h-full md:w-[16rem] duration-150'/>
+        <img src={MemojiConnect} alt="Muhammad Saad's memoji calling." className='bg-mk-pink rounded-b-lg md:rounded-l-lg w-[70%] sm:w-full md:h-full md:w-[12rem] lg:w-[14rem] xl:w-[16rem] duration-150'/>
         <div className='flex flex-col gap-4 pb-8 px-6 sm:px-8 md:pt-8 md:pl-4'>  
           {/* Call to Action */}
-          <p className='text-justify text-bold text-mk-yellow max-w-[20rem] lg:max-w-[36rem] leading-none text-lg md:text-xl lg:text-2xl duration-150'>
+          <p className='text-justify text-bold text-mk-yellow max-w-[20rem] lg:max-w-[36rem] leading-none text-md md:text-lg lg:text-xl xl:text-2xl duration-150'>
             Check out my GitHub or LinkedIn to learn more about me, or send me an email to chat!
           </p>
           {/* Buttons */}
