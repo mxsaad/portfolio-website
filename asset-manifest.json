@@ -1,31 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.65b8c910.css",
-    "main.js": "/portfolio-website/static/js/main.88f0ca0a.js",
+    "main.js": "/portfolio-website/static/js/main.e572faaa.js",
     "static/media/vertical.jpg": "/portfolio-website/static/media/vertical.4c21e92befe8cd8544da.jpg",
     "static/media/horizontal.jpg": "/portfolio-website/static/media/horizontal.85d7a1cb50d3adfe608b.jpg",
     "static/media/connect.png": "/portfolio-website/static/media/connect.e6894744175c5ac51a99.png",
     "static/media/wave.png": "/portfolio-website/static/media/wave.3b6f1a3dc5d936d1f5c7.png",
-    "static/media/vim.svg": "/portfolio-website/static/media/vim.b950a09bf2b2d900c3fe.svg",
-    "static/media/bash.svg": "/portfolio-website/static/media/bash.12b9574c657e4e3629a6.svg",
-    "static/media/mysql.svg": "/portfolio-website/static/media/mysql.de1f441d77fea35c2d6e.svg",
-    "static/media/docker.svg": "/portfolio-website/static/media/docker.1d41320cb0101dbbc6fe.svg",
-    "static/media/jupyter.svg": "/portfolio-website/static/media/jupyter.a30a052e52442056febf.svg",
-    "static/media/react.svg": "/portfolio-website/static/media/react.4e0c97009b885bfa75c5.svg",
-    "static/media/java.svg": "/portfolio-website/static/media/java.a751bad6c81431ab4dd6.svg",
-    "static/media/python.svg": "/portfolio-website/static/media/python.ab5b883c7057f0d1476b.svg",
-    "static/media/javascript.svg": "/portfolio-website/static/media/javascript.ab7c6947b4bd5cd12f24.svg",
-    "static/media/css.svg": "/portfolio-website/static/media/css.39769a8bd378bf410d6b.svg",
-    "static/media/git.svg": "/portfolio-website/static/media/git.c08353563539c6459b35.svg",
     "index.html": "/portfolio-website/index.html",
-    "static/media/tailwind.svg": "/portfolio-website/static/media/tailwind.e7b4a92d5aefbddd6f06.svg",
-    "static/media/html.svg": "/portfolio-website/static/media/html.8664168d5bc90b1a2439.svg",
-    "static/media/vagrant.svg": "/portfolio-website/static/media/vagrant.88a97090d5000c71dfb7.svg",
     "main.65b8c910.css.map": "/portfolio-website/static/css/main.65b8c910.css.map",
-    "main.88f0ca0a.js.map": "/portfolio-website/static/js/main.88f0ca0a.js.map"
+    "main.e572faaa.js.map": "/portfolio-website/static/js/main.e572faaa.js.map"
   },
   "entrypoints": [
     "static/css/main.65b8c910.css",
-    "static/js/main.88f0ca0a.js"
+    "static/js/main.e572faaa.js"
   ]
 }
